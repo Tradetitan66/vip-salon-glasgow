@@ -9,23 +9,23 @@ export default function Hero({ onChooseLocation }: HeroProps) {
     <section className="hero" aria-labelledby="hero-title">
       <picture>
         <source
-          srcSet="/images/hair/hero-1536.avif 1536w, /images/hair/hero-800.avif 800w"
+          srcSet="/images/hair/hero-1500.avif 1500w, /images/hair/hero-800.avif 800w"
           type="image/avif"
           sizes="100vw"
         />
         <source
-          srcSet="/images/hair/hero-1536.webp 1536w, /images/hair/hero-800.webp 800w"
+          srcSet="/images/hair/hero-1500.webp 1500w, /images/hair/hero-800.webp 800w"
           type="image/webp"
           sizes="100vw"
         />
         <img
           className="hero__image"
-          src="/images/hair/hero-1536.jpg"
-          srcSet="/images/hair/hero-1536.jpg 1536w, /images/hair/hero-800.jpg 800w"
+          src="/images/hair/hero-1500.jpg"
+          srcSet="/images/hair/hero-1500.jpg 1500w, /images/hair/hero-800.jpg 800w"
           sizes="100vw"
-          alt="Long glossy brunette hairstyle created at VIP Salons"
-          width="1536"
-          height="2048"
+          alt="Hair styled at VIP Salons"
+          width="1500"
+          height="2000"
           fetchPriority="high"
         />
       </picture>

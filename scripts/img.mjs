@@ -22,10 +22,10 @@ const ASSETS = {
     widths: [480],
     formats: ["webp", "jpg"],
   },
-  // Hero (preferred) - 1536x2048
+  // Hero (portrait 1500x2000)
   "hair/hero": {
-    src: "598942769_1441948034607193_2666349800146441332_n.jpg",
-    widths: [1536, 800],
+    src: "653706098_1523544329780896_7712347137655535491_n.jpg",
+    widths: [1500, 800],
     formats: ["webp", "jpg", "avif"],
   },
   // Hair gallery
